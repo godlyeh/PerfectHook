@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Perfect Hook">
+      <UniqueIdentifier>{d6a5f7d5-634e-4b63-98b4-00c3310bc4a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfect Hook\Half-Life %28Shared%29">
+      <UniqueIdentifier>{e274e4f4-fd99-476f-bf32-723eccdc4880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfect Hook\Half-Life %28Shared%29\SDK">
+      <UniqueIdentifier>{b23dfb3b-666a-4b30-8fc9-be94c6d2dfd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfect Hook\DllMain &amp; Hook">
+      <UniqueIdentifier>{5eec0996-e668-47c0-9a15-dfc175b7a0dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfect Hook\Half-Life %28Shared%29\SDK\cl_dll">
+      <UniqueIdentifier>{a5399e89-9d2f-4863-8b75-d9af2d3e8d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfect Hook\Half-Life %28Shared%29\SDK\common">
+      <UniqueIdentifier>{0564bdea-3314-44e8-926b-8ec9eb6828c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfect Hook\Half-Life %28Shared%29\SDK\dlls">
+      <UniqueIdentifier>{1d4b539c-748c-4b9e-8aa5-acce19edf8e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfect Hook\Half-Life %28Shared%29\SDK\engine">
+      <UniqueIdentifier>{614685e8-c0cf-45f3-a66a-b6a129df6bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfect Hook\Half-Life %28Shared%29\SDK\external">
+      <UniqueIdentifier>{64aa7443-9967-4455-9f5e-8735ccf04db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfect Hook\Half-Life %28Shared%29\SDK\game_ui">
+      <UniqueIdentifier>{94386580-04a0-4a69-a459-0e8d038ff92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfect Hook\Half-Life %28Shared%29\SDK\game_shared">
+      <UniqueIdentifier>{bfc94328-1474-4ad3-8958-3a416d124569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfect Hook\Half-Life %28Shared%29\SDK\network">
+      <UniqueIdentifier>{d5782c6d-ecf1-40e7-9ace-12107d015aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfect Hook\Half-Life %28Shared%29\SDK\vgui">
+      <UniqueIdentifier>{e04fd05b-0209-4f58-b87f-12519c0c1efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfect Hook\Half-Life %28Shared%29\SDK\vgui2">
+      <UniqueIdentifier>{73ca0de2-1285-4fe7-b394-a9a4ce8fb6f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfect Hook\Half-Life %28Shared%29\SDK\dedicated">
+      <UniqueIdentifier>{d168055f-6ddd-4818-b6d3-d05ab28d3ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perfect Hook\Half-Life %28Shared%29\SDK\public">
+      <UniqueIdentifier>{d615fc3d-f406-4fde-96c5-acb36ce24655}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DllMain.h">
+      <Filter>Perfect Hook\DllMain &amp; Hook</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Perfect Hook\DllMain &amp; Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="HookInfo.cpp">
+      <Filter>Perfect Hook\DllMain &amp; Hook</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
